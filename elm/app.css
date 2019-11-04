@@ -1,0 +1,27 @@
+.container {
+  margin: auto;
+  max-width: 90%;
+  width: 800px; }
+
+.tag {
+  border: 1px solid black;
+  display: inline-block;
+  width: auto;
+  padding: 0.5em;
+  background: red;
+  margin: 0.5em;
+  transition: background 0.3s; }
+  .tag.selected {
+    background: limegreen; }
+
+.selectable {
+  padding: 1em;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px grey;
+  margin: 1em; }
+  .selectable .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em; }
+
+/*# sourceMappingURL=app.css.map */
